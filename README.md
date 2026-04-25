@@ -1,90 +1,38 @@
-# 🧪 E-commerce Automation Testing Project
+# 🛒 Ecommerce Automation Project
+Automation framework for testing an eCommerce website using **Selenium, Java, TestNG, and Maven**.
 
-## 📌 Project Overview
-This project is a Selenium-based automation framework built to test core user flows of an e-commerce application using **Java, Selenium WebDriver, TestNG, and Maven**.
-The automation covers key functionalities such as login, adding products to cart, and validating cart behavior.
 ---
-## 🚀 Tech Stack
-* Java
-* Selenium WebDriver
-* TestNG
-* Maven
-* Eclipse IDE
----
-## 🌐 Application Under Test
-* SauceDemo
----
-## 📂 Project Structure
-EcommerceAutomation/
-│
-├── src/main/java
-│   ├── ecomerceBasePackage
-│   │   └── BaseTest.java
-│   │
-│   ├── ecommercePagesPackage
-│   │   ├── LoginPage.java
-│   │   ├── ProductPage.java
-│   │   └── CartPage.java
-│
-├── src/test/java
-│   └── ecomerceTestsPackage
-│       ├── LoginTest.java
-│       └── AddToCartTest.java
-│
-├── pom.xml
-└── .gitignore
-...
+## 🚀 Features
+- Login Test (Valid & Invalid)
+- Add to Cart
+- Checkout Flow
 ---
 
-## 🧪 Test Scenarios Covered
-
-### ✅ 1. Login Test
-
-* Valid login with correct credentials
-* Validation using URL assertion
-
-### ✅ 2. Add to Cart Test
-
-* Add product to cart
-* Navigate to cart
-* Validate product name
+## 🧱 Framework
+- Page Object Model (POM)
+- Explicit Waits
+- TestNG for execution
 ---
-## 🧠 Framework Design
-This project follows **Page Object Model (POM)** design pattern:
-* **BaseTest** → Browser setup & teardown
-* **Pages** → UI interactions (locators + methods)
-* **Tests** → Test scenarios using TestNG
----
-## ▶️ How to Run the Project
-### Prerequisites:
 
-* Java installed
-* Maven installed
-* Chrome browser
-### Run using Maven:
-```bash
-mvn test
-## 📊 Test Execution
-TestNG is used for execution and reporting.
-
-## ⚠️ Notes
-* `test-output/` and `target/` folders are excluded using `.gitignore`
-* These folders are auto-generated during execution
+## 📂 Structure
+src/main/java → Base + Page Classes
+src/test/java → Test Classes (Login, Find a Product, Add to Cart, Checkout, Confirm Order )
+pom.xml → Dependencies
 ---
-## 📌 Future Improvements
-* Add Checkout flow automation
-* Implement Explicit Waits
-* Add Data-Driven Testing
-* Integrate Reporting tools (Extent Reports)
+
+## ▶️ Run Tests
+1. Clone repo  
+2. Import as Maven project  
+3. Run TestNG tests  
+---
+
+## 🌐 Test Site
+https://www.saucedemo.com/  
+**User:** standard_user  
+**Pass:** secret_sauce  
+---
 
 ## 👨‍💻 Author
-**Mithilesh Gupta**
-
-## 📎 Submission Details
-
-* Manual Test Cases: Attached separately (Excel/Google Sheet)
-* Bug Report: Attached separately
-* Proof of Work: Screenshots / Recording shared via email
-
-## ⭐ Conclusion
-This project demonstrates a basic automation framework for e-commerce testing with scalable design using Selenium and TestNG.
+Mithilesh Gupta  
+GitHub: https://github.com/MithileshGuptaAutomation  
+LinkedIn: https://www.linkedin.com/in/mithilesh-gupta-56142a324/
